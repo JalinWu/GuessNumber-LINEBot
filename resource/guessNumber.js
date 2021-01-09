@@ -8,7 +8,7 @@ var repeatBird = function (bot) {
     //     var userMsg = event.mssage.text;
     //     event.reply(userMsg);
     // });
-}
+} 
 
 var guessNumber = function (bot) {
     bot.on('message', function (event) {
