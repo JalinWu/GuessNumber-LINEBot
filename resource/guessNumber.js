@@ -6,7 +6,7 @@ let count = 0;
 // 學舌鳥
 var repeatBird = function (bot) {
     // bot.on('message', function (event) {
-    //     var userMsg = event.mssage.text;
+    //     var userMsg = event.message.text;
     //     event.reply(userMsg);
     // });
 }
@@ -15,7 +15,7 @@ var repeatBird = function (bot) {
 var webhookEvent = function (bot) {
     // 被加入好友
     bot.on('follow', async (event) => {
-        event.reply('感謝將我加為好友')
+        event.reply('感謝將我加為好友');
     })
 
     // 被解除好友
@@ -25,7 +25,7 @@ var webhookEvent = function (bot) {
 
     // 被加入群組/聊天室
     bot.on('join', async (event) => {
-        event.reply('感謝將我加入群組')
+        event.reply('感謝將我加入群組');
     })
 
     // 被踢出群組/聊天室
@@ -35,7 +35,7 @@ var webhookEvent = function (bot) {
 
     // 有人加入群組/聊天室
     bot.on('memberJoined', async (event) => {
-        event.reply('歡迎加入群組 ^^')
+        event.reply('歡迎加入群組 ^^');
     })
 
     // 有人離開群組/聊天室
